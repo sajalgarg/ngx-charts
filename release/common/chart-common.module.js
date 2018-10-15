@@ -44,13 +44,13 @@ var ChartCommonModule = /** @class */ (function () {
     }
     ChartCommonModule = __decorate([
         NgModule({
-            providers: [
-                Location,
-                {
-                    provide: LocationStrategy,
-                    useClass: PathLocationStrategy
-                }
-            ],
+//             providers: [
+//                 Location,
+//                 {
+//                     provide: LocationStrategy,
+//                     useClass: PathLocationStrategy
+//                 }
+//             ],
             imports: [
                 CommonModule,
                 AxesModule,
